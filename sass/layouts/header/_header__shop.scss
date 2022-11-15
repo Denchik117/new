@@ -1,0 +1,6 @@
+.header__shop{
+    display: block;
+    &.is-open{
+        display: none;
+    }
+}

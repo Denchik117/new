@@ -1,0 +1,36 @@
+.media__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  margin-top: 94px;
+  justify-content: center;
+}
+
+.media__text{
+    margin-top: 67px;
+    justify-content: center;
+}
+
+.media__info {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.media__img{
+    margin-top: 43px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.media__location{
+    margin-top: 35px;
+}
+
+
