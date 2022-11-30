@@ -103,7 +103,6 @@ button {
   transition: transform 250ms, -webkit-transform 250ms;
 }
 .header__nav.is-open {
-  left: 0;
   -webkit-transform: translateX(0);
           transform: translateX(0);
   overflow: visible;
