@@ -23,8 +23,7 @@
                 <button type="button" class="header__button" aria-expanded="true" aria-controls="button__div"
                     data-menu-button>
                     <img class="button__menu" src="./images/Burger.png" width="28" height="28">
-                    <img class="button__cross" src="./images/a598ac975acff96ca7b58cd16c0e8779.png" width="8"
-                        height="8">
+                    <img class="button__cross" src="./images/a598ac975acff96ca7b58cd16c0e8779.png" width="8" height="8">
                 </button>
                 <div class="container header__nav" id="site-nav__div" data-menu>
                     <ul class="nav__item">
@@ -46,5 +45,50 @@
             </div>
         </div>
     </div>
-    </body>
-    </html>
+    <div class="container clothe">
+            <ul class="clothe__item">
+                <li class="clothe__list"><img class="clothe__image" src="images/4.jpg" width="290" height="290"
+                        alt="pants"></li>
+            </ul>
+            <p class="clothe__text">SHUTOUT PANTS SH:WORLDWIDE</p>
+            <p class="clothe__text price">1350₴</p>
+        <div class="container clothe__client">
+            <button type="button" class="client__size" data-modal-open>
+                <p class="client__stext">SIZE</p>
+            </button>
+            <button type="button" class="client__buy" aria-expanded="true" size-button>
+                <p class="client__btext">BUY</p>
+            </button>
+        </div>
+        <div class="container discrip">
+            <p class="discrip__text">Dark blue mid-weight denim pants, stitched with white threads, 2 large pockets on the front and back, stitching in the form of SH on the back pockets, on the belt there is a holder for a fingerboard with white embroidery "shutout", also a white "shutout" embroidery on the work pents loop, large white embroidery "worldwide" on the front,YKK furniture standard
+            </p>
+        </div>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="container modal">
+            <button data-close-modal type="button" class="modal__button" data-modal-close>
+                <img src="./images/size.png" width="" height="290" alt="size">
+                <img src="./images/cross.png" width="25" height="25" alt="cross" class="modal__cross">
+            </button>
+            <div class="modal__sizes">
+                <ul class="modal__item">
+                    <li class="modal__list"><p>XXS</p></li>
+                    <li class="modal__list"><p>XS</p></li>
+                    <li class="modal__list"><p>S</p></li>
+                    <li class="modal__list"><p>M</p></li>
+                    <li class="modal__list"><p>L</p></li>
+                    <li class="modal__list"><p>XL</p></li>
+                    <li class="modal__list"><p>XXL</p></li>
+                    <li class="modal__list"><p>XXXL</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./menu.js"></script>
+    <script src="./sort.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./scroll.js"></script>
+</body>
+
+</html>

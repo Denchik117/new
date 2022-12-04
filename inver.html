@@ -45,16 +45,15 @@
             </div>
         </div>
     </div>
-    <div class="container clothe"><a href="items/inver.html" class="clothe__link">
+    <div class="container clothe">
             <ul class="clothe__item">
-                <li class="clothe__list"><img class="clothe__image" src="./images/1.jpg" width="290" height="290"
+                <li class="clothe__list"><img class="clothe__image" src="images/1.jpg" width="290" height="290"
                         alt="pants"></li>
             </ul>
             <p class="clothe__text">SHUTOUT PANTS INVERSION</p>
             <p class="clothe__text price">1200₴</p>
-        </a>
         <div class="container clothe__client">
-            <button type="button" class="client__size" aria-expanded="true" size-button>
+            <button type="button" class="client__size" data-modal-open>
                 <p class="client__stext">SIZE</p>
             </button>
             <button type="button" class="client__buy" aria-expanded="true" size-button>
@@ -66,6 +65,30 @@
             </p>
         </div>
     </div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="container modal">
+            <button data-close-modal type="button" class="modal__button" data-modal-close>
+                <img src="./images/size.png" width="" height="290" alt="size">
+                <img src="./images/cross.png" width="25" height="25" alt="cross" class="modal__cross">
+            </button>
+            <div class="modal__sizes">
+                <ul class="modal__item">
+                    <li class="modal__list"><p>XXS</p></li>
+                    <li class="modal__list"><p>XS</p></li>
+                    <li class="modal__list"><p>S</p></li>
+                    <li class="modal__list"><p>M</p></li>
+                    <li class="modal__list"><p>L</p></li>
+                    <li class="modal__list"><p>XL</p></li>
+                    <li class="modal__list"><p>XXL</p></li>
+                    <li class="modal__list"><p>XXXL</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="./menu.js"></script>
+    <script src="./sort.js"></script>
+    <script src="./modal.js"></script>
+    <script src="./scroll.js"></script>
 </body>
 
 </html>
