@@ -25,6 +25,74 @@
   color: #000000;
 }
 
-.price{
-    color: #7DA2EB;
+.price {
+  color: #7da2eb;
+}
+
+.clothe__client {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.client__size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 30px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 95px;
+}
+
+.client__stext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.client__buy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 50px;
+  background: rgba(125, 162, 235, 0.81);
+  border-radius: 10px;
+  border: 0px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.client__btext {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.discrip__text {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #000000;
 }
