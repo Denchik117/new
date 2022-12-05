@@ -21,18 +21,21 @@
   font-size: 12px;
   line-height: 19px;
   text-align: center;
+  margin-top: 60px;
 
   color: #000000;
 }
 
 .price {
   color: #7da2eb;
+  margin-top: 0px;
 }
 
 .clothe__client {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .client__size {
@@ -44,7 +47,6 @@
   background: #d9d9d9;
   border-radius: 10px;
   border: 0px;
-  margin-top: 95px;
 }
 
 .client__stext {

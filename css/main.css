@@ -99,8 +99,8 @@ button {
 .modal__cross {
   position: absolute;
   background: none;
-  right: 26px;
-  top: 13px;
+  right: 25px;
+  top: 25px;
 }
 
 .modal__sizes {
@@ -207,6 +207,31 @@ button {
   line-height: 14px;
   text-align: center;
   color: #000000;
+}
+
+.swiper {
+  width: 290px;
+  height: 290px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .header {
@@ -392,11 +417,13 @@ button {
   font-size: 12px;
   line-height: 19px;
   text-align: center;
+  margin-top: 60px;
   color: #000000;
 }
 
 .price {
   color: #7da2eb;
+  margin-top: 0px;
 }
 
 .clothe__client {
@@ -408,6 +435,7 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 20px;
 }
 
 .client__size {
@@ -425,7 +453,6 @@ button {
   background: #d9d9d9;
   border-radius: 10px;
   border: 0px;
-  margin-top: 95px;
 }
 
 .client__stext {
