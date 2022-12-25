@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
 
+<!DOCTYPE html>
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +21,6 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
 />
-
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 
@@ -54,8 +56,14 @@
     <div class="container clothe">
         <p class="clothe__text">SHUTOUT BAG DELIVERY L</p>
             <p class="clothe__text price">850₴</p>
-                <img class="clothe__image" src="images/5.jpg" width="290" height="290"
-                        alt="bag">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/5.jpg" width="290" height="290" alt="bag"></div>
+                  <div class="swiper-slide"><img src="images/5.2.jpg" width="290" height="290" alt="bag"></div>
+                  <div class="swiper-slide"><img src="images/5.3.jpg" width="290" height="290" alt="bag"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
         <div class="container clothe__client">
             <button type="button" class="client__buy" aria-expanded="true" size-button>
                 <p class="client__btext">BUY</p>
@@ -86,6 +94,7 @@
     <script src="./sort.js"></script>
     <script src="./modal.js"></script>
     <script src="./scroll.js"></script>
+    <script src="./swiper.js"></script>
 </body>
 
 </html>

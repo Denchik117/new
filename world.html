@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
 
+<!DOCTYPE html>
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +17,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
-
 <body>
     <div class="header">
         <div class="container">
@@ -69,7 +76,14 @@
     <div class="backdrop is-hidden" data-modal>
         <div class="container modal">
             <button data-close-modal type="button" class="modal__button" data-modal-close>
-                <img src="./images/cross.png" width="25" height="25" alt="cross" class="modal__cross">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="images/4.jpg" width="290" height="290" alt="pants"></div>
+                      <div class="swiper-slide"><img src="images/4.2.jpg" width="290" height="290" alt="pants"></div>
+                      <div class="swiper-slide"><img src="images/4.3.jpg" width="290" height="290" alt="pants"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
             </button>
             <img src="./images/size.jpg" width="" height="290" alt="size">
             <div class="modal__sizes">
@@ -106,6 +120,7 @@
     <script src="./sort.js"></script>
     <script src="./modal.js"></script>
     <script src="./scroll.js"></script>
+    <script src="./swiper.js"></script>
 </body>
 
 </html>

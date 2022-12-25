@@ -5,12 +5,10 @@
     position: absolute;
     outline: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    &.is-open{
-        right: 8px;
-        top: 5px;
-    }
 }
 
 .button__cross{
-    position: relative;
+    position: absolute;
+    top: 8px;
+    right: 8px;
 }

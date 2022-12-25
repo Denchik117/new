@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="uk">
 
+<!DOCTYPE html>
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +17,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
-
 <body>
     <div class="header">
         <div class="container">
@@ -48,7 +55,15 @@
     <div class="container clothe">
         <p class="clothe__text">SHUTOUT PANTS DISTORTION</p>
         <p class="clothe__text price">1350₴</p>
-        <img class="clothe__image" src="images/3.jpg" width="290" height="290" alt="pants">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/3.jpg" width="290" height="290" alt="pants"></div>
+              <div class="swiper-slide"><img src="images/3.2.jpg" width="290" height="290" alt="pants"></div>
+              <div class="swiper-slide"><img src="images/3.3.jpg" width="290" height="290" alt="pants"></div>
+              <div class="swiper-slide"><img src="images/3.4.jpg" width="290" height="290" alt="pants"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
         <div class="container clothe__client">
             <button type="button" class="client__size" data-modal-open>
                 <p class="client__stext">SIZE</p>
@@ -105,6 +120,7 @@
     <script src="./sort.js"></script>
     <script src="./modal.js"></script>
     <script src="./scroll.js"></script>
+    <script src="./swiper.js"></script>
 </body>
 
 </html>
