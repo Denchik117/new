@@ -1,5 +1,4 @@
-.window {
-    width: 320px;
+.header__main{
     position: relative;
 }
 
@@ -13,10 +12,10 @@
     left: 0;
     background-color: #D9D9D9;
     position: absolute;
-    transform: translateX(-250%);
+    transform: translateX(-100%);
     overflow: hidden;
     z-index: 2;
-    transition: transform 250ms;
+    transition: transform 300ms;
     &.is-open{
         transform: translateX(0);
         overflow: visible;

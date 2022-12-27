@@ -50,6 +50,7 @@ p {
 
 button {
   cursor: pointer;
+  outline: none;
 }
 
 .blue {
@@ -95,6 +96,7 @@ button {
 .modal__button {
   padding: 0;
   border: 0;
+  background-color: transparent;
 }
 
 .modal__cross {
@@ -151,8 +153,7 @@ button {
   color: #000000;
 }
 
-.window {
-  width: 320px;
+.header__main {
   position: relative;
 }
 
@@ -172,14 +173,14 @@ button {
   left: 0;
   background-color: #D9D9D9;
   position: absolute;
-  -webkit-transform: translateX(-250%);
-          transform: translateX(-250%);
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
   overflow: hidden;
   z-index: 2;
-  -webkit-transition: -webkit-transform 250ms;
-  transition: -webkit-transform 250ms;
-  transition: transform 250ms;
-  transition: transform 250ms, -webkit-transform 250ms;
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
 }
 .header__nav.is-open {
   -webkit-transform: translateX(0);
@@ -282,10 +283,11 @@ button {
   margin: 0px;
 }
 
-.button__cross {
+.cross {
   position: absolute;
   top: 8px;
   right: 8px;
+  z-index: 20;
 }
 
 .header__shop {
@@ -439,9 +441,9 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
   width: 140px;
   height: 30px;
   background: #d9d9d9;
@@ -463,6 +465,14 @@ button {
           align-items: center;
   text-align: center;
   color: #000000;
+}
+
+.client__arrow {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-left: 10px;
+  margin-right: 7px;
 }
 
 .client__buy {
@@ -509,6 +519,34 @@ button {
   text-align: center;
   padding-bottom: 15px;
   color: #000000;
+}
+
+.client__select {
+  position: relative;
+}
+
+.client__selsize {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: #d9d9d9;
+  border-radius: 100px;
+  right: -40px;
+  top: 0px;
+  font-family: "Lato";
+  font-style: normal;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .media__items {
@@ -559,6 +597,7 @@ button {
 
 .home {
   margin-top: 82px;
+  margin-bottom: 30px;
 }
 
 .home__text {
