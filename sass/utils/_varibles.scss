@@ -51,8 +51,13 @@ p {
 button {
     cursor: pointer;
     outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .blue {
     color: var(--accent-color);
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
